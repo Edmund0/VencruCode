@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/VencruCode/static/css/main.641cf1b4.css",
+    "main.js": "/VencruCode/static/js/main.9ed8d7fb.js",
+    "static/media/VencruLogo.png": "/VencruCode/static/media/VencruLogo.cad5e74eeb2ea7c2bb06.png",
+    "index.html": "/VencruCode/index.html",
+    "main.641cf1b4.css.map": "/VencruCode/static/css/main.641cf1b4.css.map",
+    "main.9ed8d7fb.js.map": "/VencruCode/static/js/main.9ed8d7fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.641cf1b4.css",
+    "static/js/main.9ed8d7fb.js"
+  ]
+}
