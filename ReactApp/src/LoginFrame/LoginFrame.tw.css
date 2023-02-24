@@ -1,0 +1,333 @@
+main    {
+    @apply flex flex-col items-start; 
+
+            /*
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            */
+
+    @apply p-0 gap-8 absolute; 
+
+            /*
+            padding: 0px;
+            gap: 32px;
+
+            position: absolute;
+            */
+
+    @apply w-[327px] h-[416px] left-[24px] top-[178.78px]; 
+                 
+            /*
+            width: 327px;
+            height: 416px;
+            left: 24px;
+            top: 178.78px;
+            */
+            
+    @apply sm:w-[360px] sm:h-[492px] sm:left-[180px] sm:top-[243.78px]; 
+        
+            /*
+            width: 360px;
+            height: 492px;
+            left: 180px;            /* Could be replaced with 12.5% *//*
+            top: 243.78px;
+            */
+    }
+
+
+    header  {
+            @apply flex flex-col items-center; 
+
+                    /*
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    */
+
+            @apply p-0 w-full; 
+
+                    /*
+                    padding: 0px;
+                    width: 100%;
+                    */
+
+            @apply gap-2 h-[78px]; 
+                 
+                    /*
+                    gap: 8px;
+                    height: 78px;
+                    */
+
+            @apply sm:gap-6 sm:h-[132px]; 
+                
+                    /*
+                    gap: 24px;
+                    height: 132px;
+                    */
+
+
+            /* WHAT IS THIS?*/
+            /* flex: none;
+            order: 0;
+            flex-grow: 0; */
+
+            }
+
+            #MainHeader    {
+                            @apply w-full h-[34px] m-0; 
+                                    
+                                    /*
+                                    width: 100%;
+                                    height: 34px;
+                                    margin: 0px;  Necessary Modification due to implicit margine || why was the margin non-zero?
+                                    */ 
+
+                                      
+                            
+                            /* Inside auto layout */
+                            /* WHAT IS THIS?*/
+                            /*
+                            flex: none;
+                            order: 0;
+                            align-self: stretch;
+                            flex-grow: 0; */
+
+                            @apply sm:h-[96px];
+
+                                /*
+                                width: 100%;
+                                height: 96px;
+                                margin: 0px; /* Necessary Modification due to implicit margine || why was the margin non-zero? */
+                            
+                            }
+
+            #SupportHeader {
+                            @apply w-full h-9 m-0; 
+                                                
+                                    /*
+                                    width: 100%;
+                                    height: 36px;
+                                    margin: 0px;  Necessary Modification due to implicit margine || why was the margin non-zero?
+                                    */ 
+
+                            @apply sm:h-6;       
+                                    /*
+                                    width: 100%;
+                                    height: 24px;
+                                    margin: 0px; /* Necessary Modification due to implicit margine || why was the margin non-zero? */
+
+
+
+                            /* Inside auto layout */
+                            /* WHAT IS THIS?*/
+                            /*
+                            flex: none;
+                            order: 1;
+                            align-self: stretch;
+                            flex-grow: 0; */
+                            }
+                         
+                        
+    content {
+            @apply flex flex-col items-stretch; 
+
+                    /*
+                    display: flex;
+                    flex-direction: column;
+                    align-items: stretch;
+                    */
+
+            @apply p-0 w-full rounded-xl;     
+
+                    /*
+                    padding: 0px;
+                    width: 100%;
+                    border-radius: 12px;
+                    */
+
+            @apply gap-2;
+
+                    /*
+                    gap: 8px;
+                    */     
+
+            @apply sm:gap-6;
+
+                    /*
+                    gap: 24px;
+                    */  
+
+            /* WHAT IS THIS?*/
+            /*
+            flex: none;
+            order: 1;
+            flex-grow: 0; 
+            */
+            
+            }
+
+            form    {
+                    @apply flex flex-col items-stretch p-0 w-full; 
+
+                        /*
+                        display: flex;
+                        flex-direction: column;
+                        align-items: stretch;
+                        padding: 0px;
+                        width: 100%;
+                        */
+                    
+                    @apply gap-8;
+
+                        /*
+                        gap: 32px;
+                        */
+
+                    @apply sm:gap-5;
+
+                        /*
+                        gap: 20px;
+                        */
+
+                    }
+
+                    .emailForm     {
+                                    @apply flex flex-col items-stretch p-0 gap-1.5 m-0; 
+
+                                        /*
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: stretch;
+                                        padding: 0px;
+                                        gap: 6px;
+                                        margin: 0px;
+                                        */
+
+                                    @apply h-[66px]; 
+
+                                        /* height: 66px; /* This information was not necessary */
+                                    }
+
+                    .passwordForm  {
+                                    @apply flex flex-col items-stretch p-0 gap-1.5 m-0; 
+
+                                        /*
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: stretch;
+                                        padding: 0px;
+                                        gap: 6px;
+                                        margin: 0px;
+                                        */
+
+                                    @apply h-[66px]; 
+                                    
+                                        /* height: 66px; /* This information was not necessary */
+                                    }
+
+                    input           {
+                                    @apply px-3.5 py-2.5 gap-2 rounded-lg m-0;
+                                    @apply border-[1px] border-solid border-[#D2D2D2];
+                                        /*
+                                        padding: 10px 14px;
+                                        gap: 8px;
+                                        border-radius: 8px;
+                                        margin: 0px;
+
+                                        border: 1px solid #D2D2D2; /* This information was not necessary */
+                                    
+                                    }
+
+            .ForgetActionGap        {
+                                    @apply flex flex-col items-stretch p-0 w-full; 
+
+                                        /*
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: stretch;
+                                        padding: 0px;
+                                        width: 100%;
+                                        */
+
+                                    @apply gap-6;
+
+                                        /*
+                                        gap: 24px;    
+                                        */
+
+                                    }        
+            .ActionRowSignUpGap     {
+                                    @apply flex flex-col items-stretch p-0 w-full; 
+                                        /*
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: stretch;
+                                        padding: 0px;
+                                        width: 100%;
+                                        */
+
+                                    @apply gap-8;
+
+                                        /*
+                                        gap: 32px;    
+                                        */
+                                    }
+                    
+            #RowRememberMeForgotPassword 
+                    {
+                        @apply flex flex-row items-stretch justify-end p-0; 
+                        /*
+                        display: flex;
+                        flex-direction: row;
+                        align-items: stretch;
+                        justify-content: flex-end;
+                        padding: 0px;
+                        */
+
+                        @apply sm:justify-between;
+                        /*
+                        justify-content: space-between;
+                        */
+                    }
+
+                    #RememberMe { @apply hidden; /* display: none; */ @apply sm:flex sm:items-center sm:gap-2; /* display: inline; */}
+
+                    #remember {@apply box-border w-3 h-3 bg-[#FFFFFF] border-[1px] border-solid border-[#D2D2D2] rounded-md;}
+
+            #Action {
+                    @apply flex flex-col items-stretch; 
+                    /*
+                    display: flex;
+                    flex-direction: column;
+                    align-items: stretch;
+                    */            
+                    }
+
+                    .logging         {     
+                                    @apply box-border bg-[#2362D7] border-[1px] border-solid border-[#2362D7] m-0 h-12 rounded-xl;
+
+                                    /*
+                                    box-sizing: border-box;
+                                    
+                                    background: #2362D7; 
+                                    border: 1px solid #2362D7;
+                
+                                    
+                                    margin: 0;  
+                                    height: 48px;
+                                    border-radius: 12px;
+                                    */
+                                    }
+
+    #RowSignUp    
+            {
+                @apply flex flex-col items-center w-full; 
+                /*
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                */
+
+            }
