@@ -1,4 +1,5 @@
 import './LoginFrame.tw.css';
+import './styleBase.tw.css';
 import HeaderLog from './HeaderLog';
 import FormLog from './FormLog';
 import ForgetLog from './ForgotLog';

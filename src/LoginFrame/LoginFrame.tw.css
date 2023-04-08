@@ -7,7 +7,7 @@ main    {
             align-items: flex-start;
             */
 
-    @apply p-0 gap-8 absolute; 
+    @apply gap-8 absolute; 
 
             /*
             padding: 0px;
@@ -45,7 +45,7 @@ main    {
                     align-items: center;
                     */
 
-            @apply p-0 w-full; 
+            @apply w-full; 
 
                     /*
                     padding: 0px;
@@ -75,7 +75,7 @@ main    {
             }
 
             #MainHeader    {
-                            @apply w-full h-[34px] m-0; 
+                            @apply w-full h-[34px]; 
                                     
                                     /*
                                     width: 100%;
@@ -103,7 +103,7 @@ main    {
                             }
 
             #SupportHeader {
-                            @apply w-full h-9 m-0; 
+                            @apply w-full h-9; 
                                                 
                                     /*
                                     width: 100%;
@@ -138,7 +138,7 @@ main    {
                     align-items: stretch;
                     */
 
-            @apply p-0 w-full rounded-xl;     
+            @apply w-full rounded-xl;     
 
                     /*
                     padding: 0px;
@@ -168,7 +168,7 @@ main    {
             }
 
             form    {
-                    @apply flex flex-col items-stretch p-0 w-full; 
+                    @apply flex flex-col items-stretch w-full; 
 
                         /*
                         display: flex;
@@ -193,7 +193,7 @@ main    {
                     }
 
                     .emailForm     {
-                                    @apply flex flex-col items-stretch p-0 gap-1.5 m-0; 
+                                    @apply flex flex-col items-stretch gap-1.5; 
 
                                         /*
                                         display: flex;
@@ -210,7 +210,7 @@ main    {
                                     }
 
                     .passwordForm  {
-                                    @apply flex flex-col items-stretch p-0 gap-1.5 m-0; 
+                                    @apply flex flex-col items-stretch gap-1.5; 
 
                                         /*
                                         display: flex;
@@ -226,21 +226,9 @@ main    {
                                         /* height: 66px; /* This information was not necessary */
                                     }
 
-                    input           {
-                                    @apply px-3.5 py-2.5 gap-2 rounded-lg m-0;
-                                    @apply border-[1px] border-solid border-[#D2D2D2];
-                                        /*
-                                        padding: 10px 14px;
-                                        gap: 8px;
-                                        border-radius: 8px;
-                                        margin: 0px;
-
-                                        border: 1px solid #D2D2D2; /* This information was not necessary */
-                                    
-                                    }
 
             .ForgetActionGap        {
-                                    @apply flex flex-col items-stretch p-0 w-full; 
+                                    @apply flex flex-col items-stretch w-full; 
 
                                         /*
                                         display: flex;
@@ -258,7 +246,7 @@ main    {
 
                                     }        
             .ActionRowSignUpGap     {
-                                    @apply flex flex-col items-stretch p-0 w-full; 
+                                    @apply flex flex-col items-stretch w-full; 
                                         /*
                                         display: flex;
                                         flex-direction: column;
@@ -276,7 +264,7 @@ main    {
                     
             #RowRememberMeForgotPassword 
                     {
-                        @apply flex flex-row items-stretch justify-end p-0; 
+                        @apply flex flex-row items-stretch justify-end; 
                         /*
                         display: flex;
                         flex-direction: row;
@@ -293,7 +281,7 @@ main    {
 
                     #RememberMe { @apply hidden; /* display: none; */ @apply sm:flex sm:items-center sm:gap-2; /* display: inline; */}
 
-                    #remember {@apply box-border w-3 h-3 bg-[#FFFFFF] border-[1px] border-solid border-[#D2D2D2] rounded-md;}
+                    #remember {@apply w-3 h-3 bg-[#FFFFFF] rounded-md;}
 
             #Action {
                     @apply flex flex-col items-stretch; 
@@ -305,7 +293,7 @@ main    {
                     }
 
                     .logging         {     
-                                    @apply box-border bg-[#2362D7] border-[1px] border-solid border-[#2362D7] m-0 h-12 rounded-xl;
+                                    @apply bg-[#2362D7] border-[#2362D7] h-12 rounded-xl;
 
                                     /*
                                     box-sizing: border-box;

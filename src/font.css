@@ -3,8 +3,6 @@
                             #MainHeader    {
                                              
                                             /* Header 2 || Have No Choice but to use this otherwise it would not look like image */
-                                            font-family: 'Inter';
-                                            font-style: normal;
                                             font-weight: 600;
                                             font-size: 30px;
                                             line-height: 48px;
@@ -18,8 +16,6 @@
                             #SupportHeader {
                                               
                                             /* Text md/Normal || Have No Choice but to use this otherwise it would not look like image */
-                                            font-family: 'Inter';
-                                            font-style: normal;
                                             font-weight: 400;
                                             font-size: 16px;
                                             line-height: 24px;
@@ -34,8 +30,6 @@
 
                                     label  {
                                                     /* Text sm/Medium */
-                                                    font-family: 'Inter';
-                                                    font-style: normal;
                                                     font-weight: 500;
                                                     font-size: 14px;
                                                     line-height: 20px;
@@ -48,8 +42,6 @@
 
                                     input           {
                                                     /* Text md/Normal */
-                                                    font-family: 'Inter';
-                                                    font-style: normal;
                                                     font-weight: 400;
                                                     font-size: 16px;
                                                     line-height: 24px;
@@ -63,8 +55,6 @@
                                     {
 
                                         /* Text sm/Medium */
-                                        font-family: 'Inter';
-                                        font-style: normal;
                                         font-weight: 500;
                                         font-size: 14px;
                                         line-height: 20px;
@@ -86,8 +76,6 @@
 
                             #Action {
                                         /* Text md/Medium */
-                                        font-family: 'Inter';
-                                        font-style: normal;
                                         font-weight: 500;
                                         font-size: 16px;
                                         line-height: 24px;
@@ -97,8 +85,6 @@
 
                                    .logging         {     
                                                     /* Text md/Medium */
-                                                    font-family: 'Inter';
-                                                    font-style: normal;
                                                     font-weight: 500;
                                                     font-size: 16px;
                                                     line-height: 24px;
@@ -112,8 +98,6 @@
                     #RowSignUp    
                             {
                             /* Text sm/Normal */
-                            font-family: 'Inter';
-                            font-style: normal;
                             font-weight: 400;
                             font-size: 14px;
                             line-height: 20px;
@@ -132,8 +116,6 @@
             footer  {
                 
                     /* Text sm/Normal */
-                    font-family: 'Inter';
-                    font-style: normal;
                     font-weight: 400;
                     font-size: 14px;
                     line-height: 20px;
