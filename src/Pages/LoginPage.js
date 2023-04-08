@@ -1,10 +1,10 @@
-import LoginFrame from './LoginFrame/LoginFrame';
+import LoginFrame from '../LoginFrame/LoginFrame';
 
 function LoginPage() {
 
    return (
     <div>
-      <img className="Vencru" src={require("./img/VencruLogo.png")}/> 
+      <img className="Vencru" src={require("../img/VencruLogo.png")}/> 
 
       <LoginFrame/> 
 

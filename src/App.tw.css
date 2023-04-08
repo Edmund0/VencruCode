@@ -1,0 +1,24 @@
+
+/***********************************************************************************************************/
+/**                                                                                                       **/
+/**  APP.CSS shall serve as the BASE CODE for CSS || It shall house the most general styles (defaults)    **/
+/**                                                                                                       **/
+/***********************************************************************************************************/
+
+*
+{ /* General Font || Have No Choice but to use this otherwise it would not look like image */
+  font-family: 'Inter';
+  font-style: normal;
+}
+
+
+body    
+{ @apply relative bg-zinc-50;     /* Why is this set to relative? */
+  @apply sm:w-[375px] w-[1440px];
+
+      /*
+      position: relative;
+      background: #FAFAFA;
+      */
+  }
+

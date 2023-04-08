@@ -1,17 +1,13 @@
-//import './App.css';
-import './old.css';
-import './font.css';
-import LoginPage from './LoginPage';
+import './App.tw.css';
 
 function App() {
 
-   return (
-    <div>
+   return ( 
+      <div> 
+        <Main /> 
+      </div> 
+   );
 
-      <LoginPage/> 
-
-    </div>
-  );
 }
 
 export default App;
