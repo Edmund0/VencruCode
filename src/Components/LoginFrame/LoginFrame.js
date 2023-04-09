@@ -1,9 +1,9 @@
-import './LoginFrame.tw.css';
+import styles from './LoginFrame.module.css';
 import './styleBase.tw.css';
 import HeaderLog from './HeaderLog';
 import FormLog from './FormLog';
 import ForgetLog from './ForgotLog';
-import useWindowDimensions from '../hooks/useWindowDimensions';
+import useWindowDimensions from '../../hooks/useWindowDimensions';
 
 function LoginFrame() {
 
@@ -15,15 +15,15 @@ function LoginFrame() {
         <HeaderLog/>
         <content> 
             <FormLog/>
-            <div className="ForgetActionGap"> 
+            <div className={styles.ForgetActionGap}> 
                 <ForgetLog/>
-                <div className="ActionRowSignUpGap">
-                    <div id = "Action">
+                <div className={styles.ActionRowSignUpGap}>
+                    <div id = {styles.Action}>
 
-                        <input class="logging" type="button" value="Log in"/>
+                        <input class={styles.logging} type="button" value="Log in"/>
                     </div>
 
-                    <div id="RowSignUp">
+                    <div id={styles.RowSignUp}>
 
                         <div>Don't have an account? <a>{RowSignUp}</a></div>
                     </div>

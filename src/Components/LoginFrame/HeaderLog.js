@@ -1,4 +1,5 @@
-import useWindowDimensions from '../hooks/useWindowDimensions';
+import styles from './LoginFrame.module.css';
+import useWindowDimensions from '../../hooks/useWindowDimensions';
 
 function HeaderLog() {
 
@@ -8,8 +9,8 @@ function HeaderLog() {
 
   return (
     <header>
-    <h1 id="MainHeader"> {MainHeader} </h1>
-    <p  id="SupportHeader"> {SupportHeader} </p>
+    <h1 id={styles.MainHeader}> {MainHeader} </h1>
+    <p  id={styles.SupportHeader}> {SupportHeader} </p>
     </header>
   );
 }
