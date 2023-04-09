@@ -13,9 +13,9 @@
 
 
 body    
-{ @apply relative bg-zinc-50;     /* Why is this set to relative? */
-  @apply sm:w-[375px] w-[1440px];
-
+{ @apply relative bg-zinc-50 sm:bg-white;     /* Why is this set to relative? */
+  @apply w-[375px] sm:w-[1440px];
+  @apply h-[815px] sm:h-[1024px];
       /*
       position: relative;
       background: #FAFAFA;

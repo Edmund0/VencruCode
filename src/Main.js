@@ -4,8 +4,6 @@ import LoginPage from './Pages/LoginPage';
 import SettingDetailPage from './Pages/SettingDetailPage';
 import SettingProfilePage from './Pages/SettingProfilePage';
 
-import './old.css';
-
 const Main = () => {
   return (
     <Routes> {/* The Switch decides which component to show based on the current URL.*/}
