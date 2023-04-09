@@ -1,25 +1,26 @@
-
 body    {
+    position: relative;
+    width: 375px;
+    height: 812px;
 
-        height: 812px;
-        
-        }
+    background: #FAFAFA;
+    }
+
+.Vencru 
+    {
+    /* Adjusting Online Image Size */
+    width: 148px;
+    height: 46.78px;       
     
-    .Vencru 
-        {
-        /* Adjusting Online Image Size */
-        width: 148px;
-        height: 46.78px;       
-        
-        /* Adjusting Position */
-        position: absolute;
-        left: 24px;
-        top: 84px; 
+    /* Adjusting Position */
+    position: absolute;
+    left: 24px;
+    top: 84px; 
 
-        /* THE CODE BELOW IS REDUNDANT */
-        /* right: 77.22%;
-        bottom: 84.01%; */
-        }
+    /* THE CODE BELOW IS REDUNDANT */
+    /* right: 77.22%;
+    bottom: 84.01%; */
+    }
 
 section { display: none; }
 
@@ -31,87 +32,88 @@ footer  { display: none;}
 
 {
 
-    body    {
-            position: relative;         /* Why is this set to relative? */
-            width: 1440px;
-            height: 1024px;
+body    {
+        position: relative;         /* Why is this set to relative? */
+        width: 1440px;
+        height: 1024px;
 
-            background: #FFFFFF;
-            margin: 0px;
-            padding: 0px;
-            
-            }
+        background: #FFFFFF;
+        margin: 0px;
+        padding: 0px;
+        
+        }
 
-            .Vencru {
-                    /* Adjusting Online Image Size */
-                    height: 48.78px;
-                    width: 148px;            
-                    
-                    /* Adjusting Position */
-                    position: absolute;
-                    top: 11.43%;
-                    left: 12.5%;     
+        .Vencru {
+                /* Adjusting Online Image Size */
+                height: 48.78px;
+                width: 148px;            
+                
+                /* Adjusting Position */
+                position: absolute;
+                top: 11.43%;
+                left: 12.5%;     
 
-                        /* THE CODE BELOW IS REDUNDANT */
-                        /* right: 77.22%;
-                        bottom: 84.01%; */
-                    }
+                    /* THE CODE BELOW IS REDUNDANT */
+                    /* right: 77.22%;
+                    bottom: 84.01%; */
+                }
 
 
-            footer  {
+        footer  {
 
+                display: flex;
+                flex-direction: row;
+                align-items: flex-end;
+                padding: 32px;
+        
+                position: absolute;
+                width: 720px;
+                height: 96px;
+                left: 0px;
+                bottom: 0px;
+
+                }
+
+        section {
+
+                display: inline;
+                position: absolute;
+                width: 720px;
+                height: 1024px;
+                left: 720px;
+                top: 0px;
+                background: #F4F7FD;
+
+                }
+
+                .image_content {}
+
+                .link_bar {
                     display: flex;
                     flex-direction: row;
-                    align-items: flex-end;
-                    padding: 32px;
-            
-                    position: absolute;
-                    width: 720px;
-                    height: 96px;
-                    left: 0px;
-                    bottom: 0px;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0px;
+                    gap: 64px;
+                }
 
-                    }
+                .chevron {
+                    width: 20px;
+                    height: 20px;
+                }
 
-            section {
+                .dot {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 12px;
+                    gap: 16px;
+                }
 
-                    display: inline;
-                    position: absolute;
-                    width: 720px;
-                    height: 1024px;
-                    left: 720px;
-                    top: 0px;
-                    background: #F4F7FD;
-
-                    }
-
-                    .image_content {}
-
-                    .link_bar {
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: center;
-                        align-items: center;
-                        padding: 0px;
-                        gap: 64px;
-                    }
-
-                    .chevron {
-                        width: 20px;
-                        height: 20px;
-                    }
-
-                    .dot {
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: center;
-                        align-items: center;
-                        padding: 12px;
-                        gap: 16px;
-                    }
-
-                    #dot-1 {flex: none; order: 0;}
-                    #dot-2 {flex: none; order: 1;}
-                    #dot-3 {flex: none; order: 2;}
-                    #dot-4 {flex: none; order: 3;}
+                #dot-1 {flex: none; order: 0;}
+                #dot-2 {flex: none; order: 1;}
+                #dot-3 {flex: none; order: 2;}
+                #dot-4 {flex: none; order: 3;}
 }
+

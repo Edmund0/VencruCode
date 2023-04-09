@@ -1,9 +1,9 @@
 import styles from './LoginFrame.module.css';
-import './styleBase.tw.css';
 import HeaderLog from './HeaderLog';
 import FormLog from './FormLog';
 import ForgetLog from './ForgotLog';
 import useWindowDimensions from '../../hooks/useWindowDimensions';
+import { Link } from "react-router-dom";
 
 function LoginFrame() {
 
@@ -18,10 +18,12 @@ function LoginFrame() {
             <div className={styles.ForgetActionGap}> 
                 <ForgetLog/>
                 <div className={styles.ActionRowSignUpGap}>
+                    
+                    <Link to="./setting/details">
                     <div id = {styles.Action}>
-
                         <input class={styles.logging} type="button" value="Log in"/>
                     </div>
+                    </Link>
 
                     <div id={styles.RowSignUp}>
 
