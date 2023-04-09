@@ -5,6 +5,8 @@
 /**                                                                                                       **/
 /***********************************************************************************************************/
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *
 { /* General Font || Have No Choice but to use this otherwise it would not look like image */
   font-family: 'Inter';
@@ -14,9 +16,10 @@
 
 body    
 { @apply relative bg-zinc-50 sm:bg-white;     /* Why is this set to relative? */
-  @apply w-[375px] sm:w-[1440px];
+  @apply w-full sm:w-[1440px];
   @apply h-[815px] sm:h-[1024px];
       /*
+      @apply w-[375px]
       position: relative;
       background: #FAFAFA;
       */

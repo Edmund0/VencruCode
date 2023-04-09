@@ -9,9 +9,9 @@ function LoginPage() {
 
       <LoginFrame/> 
 
-      <footer> © Vencru Inc. 2022 </footer>
+      <footer  className={styles.footer} > © Vencru Inc. 2022 </footer>
 
-      <section> 
+      <section className={styles.section}> 
           <div className={styles.image_content}></div>
 
           <div className={styles.link_bar}>

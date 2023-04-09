@@ -1,1 +1,100 @@
 
+
+
+
+.mainNav{
+                    /* Text sm/Normal */
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    /* identical to box height, or 143% */
+
+                    /* Gray/500 */
+                    @apply text-gray-700; /* color: #667085; */
+}
+
+
+.mainNav{
+    @apply flex flex-col w-full items-center bg-white;
+    box-sizing: border-box;
+    border-bottom: 1px solid #EAECF0;
+}
+
+
+    .navBar {
+        @apply flex flex-row h-[72px] gap-[223px] justify-between items-center px-8;
+    }
+
+        .navSet1{
+            @apply flex flex-row sm:gap-4 gap-[25vw] justify-between items-center;
+        }
+
+            .Vencru {
+            /* Adjusting Online Image Size */
+            width: 140px;
+            height: 40px;       
+            
+            /* Adjusting Position */
+            /* position: absolute;
+            left: 24px;
+            top: 84px;  */
+
+            /* THE CODE BELOW IS REDUNDANT */
+            /* right: 77.22%;
+            bottom: 84.01%; */
+            }
+
+            .navGroup {
+                @apply hidden sm:flex flex-row justify-between gap-1
+                
+            }
+
+            .navItem {
+                @apply flex flex-row items-center py-2 px-3 h-10
+                
+            }
+
+            .navItem:hover {
+                color:rgb(0, 145, 255);
+                cursor: pointer;
+
+            }
+
+            .MENU {
+                @apply sm:hidden flex;
+            }
+
+
+        .navSet2 {
+                @apply hidden sm:flex flex-row justify-between gap-4 items-center
+        }
+
+            .upgrade    {                                
+                width: 179px;
+                height: 40px;
+
+                /* Base/White */
+                background: #FFFFFF;
+                /* Gray/300 */
+                border: 1px solid #D0D5DD;
+                /* Shadow/xs */
+                box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+                border-radius: 8px;
+
+            }
+
+            .upgradeBox    {@apply flex flex-row justify-between gap-3 items-center py-2 px-4;
+
+                                }
+
+            .options     {@apply flex flex-row justify-between gap-3 items-center
+                
+            }
+
+            .options > .COG {
+                @apply grid items-center justify-center w-10 h-10;
+                background: #F9FAFB; border-radius: 6px;}
+
+            .profile    {border-radius: 200px;
+                
+            }

@@ -15,9 +15,9 @@
     bottom: 84.01%; */
     }
 
-section { display: none; }
+.section { display: none; }
 
-footer  { display: none;}
+.footer  { display: none;}
 
 
 /* Desktops and Tablets */
@@ -42,7 +42,7 @@ footer  { display: none;}
                 }
 
 
-        footer  {
+        .footer  {
 
                 display: flex;
                 flex-direction: row;
@@ -57,7 +57,7 @@ footer  { display: none;}
 
                 }
 
-        section {
+        .section {
 
                 display: inline;
                 position: absolute;
