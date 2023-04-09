@@ -1,6 +1,10 @@
 
 const ProfileFrame = () => {
-    return ( <div></div> );
+    return ( 
+    
+        <div></div> 
+    
+    );
 }
  
 export default ProfileFrame;

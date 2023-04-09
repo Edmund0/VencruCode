@@ -4,7 +4,7 @@ import styles from './Styles/LoginPage.module.css';
 function LoginPage() {
 
    return (
-    <div>
+    <div className="contentWrapper"> {/* Content Wrapper */}
       <img className={styles.Vencru} src={require("../Resources/img/VencruLogo.png")}/> 
 
       <LoginFrame/> 

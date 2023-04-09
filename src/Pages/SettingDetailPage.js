@@ -5,7 +5,7 @@ import DetailFrame from '../Components/SettingFrame/DetailFrame';
 function SettingDetailPage() {
 
    return (
-    <div className="body">
+    <div className="contentWrapper"> {/* Content Wrapper */}
         <MainNav></MainNav>
 
         <main>

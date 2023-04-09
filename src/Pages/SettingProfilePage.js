@@ -5,7 +5,7 @@ import ProfileFrame from '../Components/SettingFrame/ProfileFrame';
 function SettingProfilePage() {
 
    return (
-    <div className="body">
+    <div className="contentWrapper"> {/* Content Wrapper */}
         <MainNav></MainNav>
 
         <main>
