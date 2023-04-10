@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/VencruCode/static/css/main.38db64ed.css",
-    "main.js": "/VencruCode/static/js/main.4c4e8210.js",
+    "main.js": "/VencruCode/static/js/main.94453d56.js",
     "static/media/face.jpg": "/VencruCode/static/media/face.52680d9d862fbdba5109.jpg",
     "static/media/VencruLogo.png": "/VencruCode/static/media/VencruLogo.cad5e74eeb2ea7c2bb06.png",
     "static/media/cog8.svg": "/VencruCode/static/media/cog8.f89ecf04396f1ef913be056efec3afe0.svg",
@@ -10,10 +10,10 @@
     "static/media/bolt.svg": "/VencruCode/static/media/bolt.070954db658aec8df9fb0a177f6a1533.svg",
     "static/media/menu.svg": "/VencruCode/static/media/menu.adaf31602c1b9f983a1408167757b736.svg",
     "main.38db64ed.css.map": "/VencruCode/static/css/main.38db64ed.css.map",
-    "main.4c4e8210.js.map": "/VencruCode/static/js/main.4c4e8210.js.map"
+    "main.94453d56.js.map": "/VencruCode/static/js/main.94453d56.js.map"
   },
   "entrypoints": [
     "static/css/main.38db64ed.css",
-    "static/js/main.4c4e8210.js"
+    "static/js/main.94453d56.js"
   ]
 }
