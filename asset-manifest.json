@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/VencruCode/static/css/main.38db64ed.css",
-    "main.js": "/VencruCode/static/js/main.f3c083eb.js",
+    "main.js": "/VencruCode/static/js/main.2455757d.js",
     "static/media/face.jpg": "/VencruCode/static/media/face.52680d9d862fbdba5109.jpg",
     "static/media/VencruLogo.png": "/VencruCode/static/media/VencruLogo.cad5e74eeb2ea7c2bb06.png",
-    "static/media/cog8.svg": "/VencruCode/static/media/cog8.f89ecf04396f1ef913be056efec3afe0.svg",
+    "static/media/cog8.svg": "/VencruCode/static/media/cog8.4f3247286861dcddfef382c481e9a63e.svg",
     "index.html": "/VencruCode/index.html",
-    "static/media/bell.svg": "/VencruCode/static/media/bell.0326799d4cf8aaed74c317b62501c45a.svg",
-    "static/media/bolt.svg": "/VencruCode/static/media/bolt.070954db658aec8df9fb0a177f6a1533.svg",
-    "static/media/menu.svg": "/VencruCode/static/media/menu.adaf31602c1b9f983a1408167757b736.svg",
+    "static/media/bell.svg": "/VencruCode/static/media/bell.b6c6f6e02cedff7b91cafafa0078d16d.svg",
+    "static/media/bolt.svg": "/VencruCode/static/media/bolt.4bf2ee209bcfbcdf29bb2b48e5bc7aa4.svg",
+    "static/media/menu.svg": "/VencruCode/static/media/menu.502817f3e44c51bcfcd1ae00a2e499c6.svg",
     "main.38db64ed.css.map": "/VencruCode/static/css/main.38db64ed.css.map",
-    "main.f3c083eb.js.map": "/VencruCode/static/js/main.f3c083eb.js.map"
+    "main.2455757d.js.map": "/VencruCode/static/js/main.2455757d.js.map"
   },
   "entrypoints": [
     "static/css/main.38db64ed.css",
-    "static/js/main.f3c083eb.js"
+    "static/js/main.2455757d.js"
   ]
 }
